@@ -13,7 +13,7 @@ configureGenkit({
   enableTracingAndMetrics: true,
 });
 
-// Define a schema for the blog post
+// Define a schema
 const OutputSchema = z.object({
   tipo: z.string().describe("Cazador', 'Pastor', 'Asistencia', 'Pelea', 'Tiro'"),
   peso: z.string().describe("El peso debe ser en kilos"),
